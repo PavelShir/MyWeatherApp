@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Weather View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyWeatherApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WeatherViewController" customModule="MyWeatherApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -39,7 +39,7 @@
                                                 <rect key="frame" x="59.666666666666671" y="0.0" width="233.66666666666663" height="40"/>
                                                 <color key="backgroundColor" systemColor="systemFillColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="go"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ly-MM-HEO">
                                                 <rect key="frame" x="303.33333333333331" y="0.0" width="49.666666666666686" height="40"/>
@@ -50,6 +50,9 @@
                                                 <color key="tintColor" systemColor="labelColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system"/>
+                                                <connections>
+                                                    <action selector="searchPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BVL-K1-MR7"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -113,6 +116,12 @@
                             <constraint firstItem="Skk-T1-eBv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rjy-Q8-W7X"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cityLabel" destination="dmz-br-zwK" id="PXd-PW-TmP"/>
+                        <outlet property="cityTextField" destination="nQY-oq-6cv" id="GRy-Ev-2Xa"/>
+                        <outlet property="temperatureLabel" destination="zjU-2n-a5L" id="M7O-Xv-LEa"/>
+                        <outlet property="weatherImage" destination="Kec-xD-ZIl" id="IK6-ft-8H0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

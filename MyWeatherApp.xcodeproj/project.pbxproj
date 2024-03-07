@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		319BE2282B98FCEC005C4BBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BE2272B98FCEC005C4BBE /* AppDelegate.swift */; };
 		319BE22A2B98FCEC005C4BBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BE2292B98FCEC005C4BBE /* SceneDelegate.swift */; };
-		319BE22C2B98FCEC005C4BBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BE22B2B98FCEC005C4BBE /* ViewController.swift */; };
+		319BE22C2B98FCEC005C4BBE /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BE22B2B98FCEC005C4BBE /* WeatherViewController.swift */; };
 		319BE22F2B98FCEC005C4BBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319BE22D2B98FCEC005C4BBE /* Main.storyboard */; };
 		319BE2312B98FCEF005C4BBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 319BE2302B98FCEF005C4BBE /* Assets.xcassets */; };
 		319BE2342B98FCEF005C4BBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319BE2322B98FCEF005C4BBE /* LaunchScreen.storyboard */; };
+		319BE2462B9A777E005C4BBE /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BE2452B9A777E005C4BBE /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		319BE2242B98FCEC005C4BBE /* MyWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		319BE2272B98FCEC005C4BBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		319BE2292B98FCEC005C4BBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		319BE22B2B98FCEC005C4BBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		319BE22B2B98FCEC005C4BBE /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		319BE22E2B98FCEC005C4BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		319BE2302B98FCEF005C4BBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		319BE2332B98FCEF005C4BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		319BE2352B98FCEF005C4BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		319BE2452B9A777E005C4BBE /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +72,7 @@
 		319BE23E2B990026005C4BBE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				319BE22B2B98FCEC005C4BBE /* ViewController.swift */,
+				319BE22B2B98FCEC005C4BBE /* WeatherViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -87,6 +89,7 @@
 		319BE2402B99003F005C4BBE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				319BE2452B9A777E005C4BBE /* WeatherManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -162,8 +165,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				319BE22C2B98FCEC005C4BBE /* ViewController.swift in Sources */,
+				319BE22C2B98FCEC005C4BBE /* WeatherViewController.swift in Sources */,
 				319BE2282B98FCEC005C4BBE /* AppDelegate.swift in Sources */,
+				319BE2462B9A777E005C4BBE /* WeatherManager.swift in Sources */,
 				319BE22A2B98FCEC005C4BBE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
