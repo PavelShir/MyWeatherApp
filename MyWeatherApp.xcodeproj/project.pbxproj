@@ -14,6 +14,7 @@
 		319BE2312B98FCEF005C4BBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 319BE2302B98FCEF005C4BBE /* Assets.xcassets */; };
 		319BE2342B98FCEF005C4BBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319BE2322B98FCEF005C4BBE /* LaunchScreen.storyboard */; };
 		319BE2462B9A777E005C4BBE /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BE2452B9A777E005C4BBE /* WeatherManager.swift */; };
+		319BE2482B9BAD9F005C4BBE /* WeatheData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BE2472B9BAD9F005C4BBE /* WeatheData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		319BE2332B98FCEF005C4BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		319BE2352B98FCEF005C4BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		319BE2452B9A777E005C4BBE /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		319BE2472B9BAD9F005C4BBE /* WeatheData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatheData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				319BE2452B9A777E005C4BBE /* WeatherManager.swift */,
+				319BE2472B9BAD9F005C4BBE /* WeatheData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				319BE2482B9BAD9F005C4BBE /* WeatheData.swift in Sources */,
 				319BE22C2B98FCEC005C4BBE /* WeatherViewController.swift in Sources */,
 				319BE2282B98FCEC005C4BBE /* AppDelegate.swift in Sources */,
 				319BE2462B9A777E005C4BBE /* WeatherManager.swift in Sources */,
