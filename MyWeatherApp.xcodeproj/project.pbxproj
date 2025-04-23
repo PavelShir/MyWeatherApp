@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3186BE2B2DB6ECC700DE9815 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3186BE2A2DB6ECC700DE9815 /* WeatherViewModel.swift */; };
 		319BE2282B98FCEC005C4BBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BE2272B98FCEC005C4BBE /* AppDelegate.swift */; };
 		319BE22A2B98FCEC005C4BBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BE2292B98FCEC005C4BBE /* SceneDelegate.swift */; };
 		319BE22C2B98FCEC005C4BBE /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BE22B2B98FCEC005C4BBE /* WeatherViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3186BE2A2DB6ECC700DE9815 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 		319BE2242B98FCEC005C4BBE /* MyWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		319BE2272B98FCEC005C4BBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		319BE2292B98FCEC005C4BBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3186BE292DB6EC9600DE9815 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3186BE2A2DB6ECC700DE9815 /* WeatherViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		319BE21B2B98FCEC005C4BBE = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +74,7 @@
 			children = (
 				319BE2272B98FCEC005C4BBE /* AppDelegate.swift */,
 				319BE2292B98FCEC005C4BBE /* SceneDelegate.swift */,
+				3186BE292DB6EC9600DE9815 /* ViewModel */,
 				319BE2402B99003F005C4BBE /* Models */,
 				319BE23E2B990026005C4BBE /* Controllers */,
 				319BE23F2B990034005C4BBE /* Views */,
@@ -177,6 +188,7 @@
 				319BE2462B9A777E005C4BBE /* WeatherManager.swift in Sources */,
 				319BE24A2B9BC15C005C4BBE /* WeatherModel.swift in Sources */,
 				319BE22A2B98FCEC005C4BBE /* SceneDelegate.swift in Sources */,
+				3186BE2B2DB6ECC700DE9815 /* WeatherViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
